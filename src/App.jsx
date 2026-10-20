@@ -39,7 +39,7 @@ const PAGE_HTML = `<div id="loader">
 </div>
 <div class="hero-stage">
 <div class="hero-bg-text">CURIOUS</div>
-<div class="hero-photo"><img alt="Subhan Bhatti" src="/assets/subhan.jpg"/></div>
+<div class="hero-photo"><img alt="Subhan Bhatti" src="${import.meta.env.BASE_URL}assets/subhan.jpg"/></div>
 <div class="hero-socials">
 <a href="https://www.linkedin.com/in/subhanbhatti50134" rel="noopener" target="_blank">
 <svg fill="currentColor" viewbox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.27c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zm13.5 10.27h-3v-4.5c0-1.07-.02-2.45-1.49-2.45-1.49 0-1.72 1.16-1.72 2.37v4.58h-3v-9h2.88v1.23h.04c.4-.75 1.38-1.54 2.85-1.54 3.05 0 3.61 2 3.61 4.59v4.72z"></path></svg>
@@ -72,7 +72,7 @@ const PAGE_HTML = `<div id="loader">
           Computer Science (ADP) student at UMT Lahore, building a bridge between core CS fundamentals and applied software engineering. Proficient in Python and C++, with a strong foundation in object-oriented programming, data structures, and algorithmic problem-solving. Currently deepening my full-stack skills and exploring agentic AI — drawn to projects where clean logic meets thoughtful design.
         </p>
 <div class="about-buttons">
-<a class="btn-solid" download="Subhan_Bhatti_CV.pdf" href="/assets/Subhan_Bhatti_CV.pdf">
+<a class="btn-solid" download="Subhan_Bhatti_CV.pdf" href="${import.meta.env.BASE_URL}assets/Subhan_Bhatti_CV.pdf">
 <svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M12 3v13M6 11l6 6 6-6M5 21h14"></path></svg>
             Download Resume
           </a>
@@ -444,17 +444,17 @@ const PAGE_HTML = `<div id="loader">
 <!-- Project 2: Number Guessing -->
 <div class="proj-img-item card" data-proj="2">
 <div class="pv-glow" style="background:radial-gradient(circle,#c026d3,transparent 70%);"></div>
-<img src="/assets/projects/number-guessing.png" alt="Number Guessing Game repository"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/number-guessing.png" alt="Number Guessing Game repository"/>
 </div>
 <!-- Project 3: To-Do -->
 <div class="proj-img-item card" data-proj="3">
 <div class="pv-glow" style="background:radial-gradient(circle,#7c3aed,transparent 70%);"></div>
-<img src="/assets/projects/todo-list.png" alt="To-Do List Application repository"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/todo-list.png" alt="To-Do List Application repository"/>
 </div>
 <!-- Project 4: Portfolio -->
 <div class="proj-img-item card" data-proj="4">
 <div class="pv-glow" style="background:radial-gradient(circle,#a855f7,transparent 70%);"></div>
-<img src="/assets/projects/my-portfolio.png" alt="MyPortfolio repository"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/my-portfolio.png" alt="MyPortfolio repository"/>
 </div>
 <!-- Project 5: StreamCam -->
 <div class="proj-img-item" data-proj="5">
@@ -507,27 +507,27 @@ const PAGE_HTML = `<div id="loader">
 </div>
 <div class="proj-img-item" data-proj="7">
 <div class="pv-glow" style="background:radial-gradient(circle,#3b82f6,transparent 70%);"></div>
-<img src="/assets/projects/nyvexa.png" alt="Nyvexa AI assistant chat interface"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/nyvexa.png" alt="Nyvexa AI assistant chat interface"/>
 </div>
 <div class="proj-img-item" data-proj="8">
 <div class="pv-glow" style="background:radial-gradient(circle,#38bdf8,transparent 70%);"></div>
-<img src="/assets/projects/rupee-pulse.png" alt="Rupee Pulse live trading dashboard"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/rupee-pulse.png" alt="Rupee Pulse live trading dashboard"/>
 </div>
 <div class="proj-img-item card" data-proj="9">
 <div class="pv-glow" style="background:radial-gradient(circle,#f5d142,transparent 70%);"></div>
-<img src="/assets/projects/snj-gold-lab.png" alt="SNJ Gold Lab repository"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/snj-gold-lab.png" alt="SNJ Gold Lab repository"/>
 </div>
 <div class="proj-img-item card" data-proj="10">
 <div class="pv-glow" style="background:radial-gradient(circle,#facc15,transparent 70%);"></div>
-<img src="/assets/projects/gold-silver-pos.png" alt="Gold Silver POS repository"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/gold-silver-pos.png" alt="Gold Silver POS repository"/>
 </div>
 <div class="proj-img-item" data-proj="11">
 <div class="pv-glow" style="background:radial-gradient(circle,#a855f7,transparent 70%);"></div>
-<img src="/assets/projects/app-sweeper.png" alt="App Sweeper uninstaller interface"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/app-sweeper.png" alt="App Sweeper uninstaller interface"/>
 </div>
 <div class="proj-img-item card" data-proj="12">
 <div class="pv-glow" style="background:radial-gradient(circle,#c026d3,transparent 70%);"></div>
-<img src="/assets/projects/dice-rolling.png" alt="Dice Rolling Game repository"/>
+<img src="${import.meta.env.BASE_URL}assets/projects/dice-rolling.png" alt="Dice Rolling Game repository"/>
 </div>
 </div><!-- /proj-img-stage -->
 </div><!-- /proj-right-panel -->
