@@ -72,7 +72,7 @@ const PAGE_HTML = `<div id="loader">
           Computer Science (ADP) student at UMT Lahore, building a bridge between core CS fundamentals and applied software engineering. Proficient in Python and C++, with a strong foundation in object-oriented programming, data structures, and algorithmic problem-solving. Currently deepening my full-stack skills and exploring agentic AI — drawn to projects where clean logic meets thoughtful design.
         </p>
 <div class="about-buttons">
-<a class="btn-solid" download="Subhan_Bhatti_CV_ATS_v2" href="/assets/Subhan_Bhatti_CV_ATS_v2.pdf">
+<a class="btn-solid" download="Subhan_Bhatti_CV.pdf" href="/assets/Subhan_Bhatti_CV.pdf">
 <svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M12 3v13M6 11l6 6 6-6M5 21h14"></path></svg>
             Download Resume
           </a>
@@ -186,7 +186,7 @@ const PAGE_HTML = `<div id="loader">
 <div class="proj-left-panel">
 <div class="proj-header reveal">
 <h2 class="proj-h1">CODE<br/><span class="l2">PRACTICE.</span></h2>
-<p class="proj-sub">A curated set of C++, Python, and web projects from my learning journey so far.</p>
+<p class="proj-sub">A curated set of C++, Python, web, and AI projects from my learning journey so far.</p>
 </div>
 <!-- Slide info items (stacked vertically, one visible at a time) -->
 <div class="proj-info-stage" id="proj-info-stage">
@@ -246,18 +246,18 @@ const PAGE_HTML = `<div id="loader">
 <span class="proj-stack-label">Stack &amp; Architecture</span>
 <span class="proj-stack">HTML / CSS / JAVASCRIPT</span>
 <p class="proj-desc">This portfolio site itself, built to showcase skills, projects, and learning progress using a polished one-page layout and interactive UI behavior.</p>
-<a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/My-Portfolio" rel="noopener" target="_blank">
+<a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/MyPortfolio" rel="noopener" target="_blank">
             View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
 </a>
 </div>
 <div class="proj-slide-info" data-proj="5">
 <span class="pnum">06</span>
-<div class="proj-tags"><span class="proj-tag">PYTHON · FLASK</span></div>
+<div class="proj-tags"><span class="proj-tag">IONIC · CAPACITOR</span></div>
 <h3 class="proj-title">STREAMCAM</h3>
 <div class="proj-divider"></div>
 <span class="proj-stack-label">Stack &amp; Architecture</span>
-<span class="proj-stack">PYTHON / FLASK / OPENCV</span>
-<p class="proj-desc">A lightweight Python webcam streaming server built with Flask and OpenCV, serving a live video feed over the local network in real time.</p>
+<span class="proj-stack">IONIC / CAPACITOR / ANDROID</span>
+<p class="proj-desc">A cross-platform hybrid mobile app for real-time camera streaming, media asset capture, and video management on Android, built with Ionic and Capacitor.</p>
 <a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/StreamCam" rel="noopener" target="_blank">
             View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
 </a>
@@ -274,11 +274,83 @@ const PAGE_HTML = `<div id="loader">
             View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
 </a>
 </div>
+<div class="proj-slide-info" data-proj="7">
+<span class="pnum">08</span>
+<div class="proj-tags"><span class="proj-tag">PYTHON · AI ASSISTANT</span></div>
+<h3 class="proj-title">NYVEXA</h3>
+<div class="proj-divider"></div>
+<span class="proj-stack-label">Stack &amp; Architecture</span>
+<span class="proj-stack">FASTAPI / SSE / RAG / PWA</span>
+<p class="proj-desc">A full-stack AI assistant with streaming chat, autonomous web research, a tool-using agent, side-by-side model comparison, and per-user knowledge bases — shipped as a fast, installable PWA.</p>
+<a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/nyvexa" rel="noopener" target="_blank">
+            View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
+</a>
+</div>
+<div class="proj-slide-info" data-proj="8">
+<span class="pnum">09</span>
+<div class="proj-tags"><span class="proj-tag">PYTHON · REACT · WEBSOCKETS</span></div>
+<h3 class="proj-title">RUPEE PULSE</h3>
+<div class="proj-divider"></div>
+<span class="proj-stack-label">Stack &amp; Architecture</span>
+<span class="proj-stack">FASTAPI / REACT / BINANCE API</span>
+<p class="proj-desc">A live Binance trading and PKR P2P analytics dashboard — streaming prices, candlestick charts, spread and premium analytics, demo order execution, alerts, and portfolio growth.</p>
+<a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/Ruppee-Pulse" rel="noopener" target="_blank">
+            View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
+</a>
+</div>
+<div class="proj-slide-info" data-proj="9">
+<span class="pnum">10</span>
+<div class="proj-tags"><span class="proj-tag">REACT · TYPESCRIPT · POSTGRESQL</span></div>
+<h3 class="proj-title">SNJ GOLD LAB</h3>
+<div class="proj-divider"></div>
+<span class="proj-stack-label">Stack &amp; Architecture</span>
+<span class="proj-stack">REACT / TYPESCRIPT / FASTAPI / POSTGRESQL</span>
+<p class="proj-desc">A web-based gold, silver, jewellery, and laboratory inventory and transaction management system with full CRUD workflows over a PostgreSQL backend.</p>
+<a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/snj-gold-lab-web-app" rel="noopener" target="_blank">
+            View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
+</a>
+</div>
+<div class="proj-slide-info" data-proj="10">
+<span class="pnum">11</span>
+<div class="proj-tags"><span class="proj-tag">KOTLIN · DESKTOP APP</span></div>
+<h3 class="proj-title">GOLD SILVER POS</h3>
+<div class="proj-divider"></div>
+<span class="proj-stack-label">Stack &amp; Architecture</span>
+<span class="proj-stack">KOTLIN / OOP / DESKTOP</span>
+<p class="proj-desc">A professional jewellery shop POS and management system for handling sales, inventory, purchases, customer records, and gold and silver transactions.</p>
+<a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/GoldSilverPOS" rel="noopener" target="_blank">
+            View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
+</a>
+</div>
+<div class="proj-slide-info" data-proj="11">
+<span class="pnum">12</span>
+<div class="proj-tags"><span class="proj-tag">PYTHON · LINUX TOOL</span></div>
+<h3 class="proj-title">APP SWEEPER</h3>
+<div class="proj-divider"></div>
+<span class="proj-stack-label">Stack &amp; Architecture</span>
+<span class="proj-stack">PYTHON / ZERO DEPENDENCIES / CLI</span>
+<p class="proj-desc">A zero-dependency Linux uninstaller that removes packages and their leftover cache, config, and data files — shipping a premium web UI, TUI, and CLI on the Python standard library.</p>
+<a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/app-sweeper" rel="noopener" target="_blank">
+            View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
+</a>
+</div>
+<div class="proj-slide-info" data-proj="12">
+<span class="pnum">13</span>
+<div class="proj-tags"><span class="proj-tag">C++ · GAME</span></div>
+<h3 class="proj-title">DICE ROLLING GAME</h3>
+<div class="proj-divider"></div>
+<span class="proj-stack-label">Stack &amp; Architecture</span>
+<span class="proj-stack">C++ / RANDOMIZATION</span>
+<p class="proj-desc">A console dice game using seeded randomization, with special-outcome detection for Snake Eyes, Boxcars, and lucky rolls, played through a roll-again-until-you-stop loop.</p>
+<a class="proj-explore" href="https://github.com/subhanbhatti50134-jpg/Dice-Rolling-Game" rel="noopener" target="_blank">
+            View Repository <span class="arrow-circ"><svg fill="none" stroke="currentColor" stroke-width="2.3" viewbox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"></path></svg></span>
+</a>
+</div>
 </div><!-- /proj-info-stage -->
 <!-- Bottom bar: counter + nav -->
 <div class="proj-bottom-bar">
 <div class="proj-counter">
-<span class="num" id="proj-num">01 / 07</span>
+<span class="num" id="proj-num">01 / 13</span>
 <div class="proj-dots" id="proj-dots"></div>
 </div>
 <div class="proj-nav">
@@ -370,28 +442,19 @@ const PAGE_HTML = `<div id="loader">
 </div>
 </div>
 <!-- Project 2: Number Guessing -->
-<div class="proj-img-item" data-proj="2">
+<div class="proj-img-item card" data-proj="2">
 <div class="pv-glow" style="background:radial-gradient(circle,#c026d3,transparent 70%);"></div>
-<div class="img-placeholder">
-<svg fill="none" height="80" stroke="#a855f7" stroke-width=".8" viewbox="0 0 24 24" width="80"><circle cx="12" cy="12" r="9"></circle><text fill="#a855f7" font-size="9" stroke="none" text-anchor="middle" x="12" y="16">?</text></svg>
-<span class="img-label">NUMBER GAME</span>
-</div>
+<img src="/assets/projects/number-guessing.png" alt="Number Guessing Game repository"/>
 </div>
 <!-- Project 3: To-Do -->
-<div class="proj-img-item" data-proj="3">
+<div class="proj-img-item card" data-proj="3">
 <div class="pv-glow" style="background:radial-gradient(circle,#7c3aed,transparent 70%);"></div>
-<div class="img-placeholder">
-<svg fill="none" height="80" stroke="#a855f7" stroke-width=".8" viewbox="0 0 24 24" width="80"><rect height="16" rx="2" width="16" x="4" y="4"></rect><line x1="8" x2="16" y1="10" y2="10"></line><line x1="8" x2="13" y1="14" y2="14"></line></svg>
-<span class="img-label">TO-DO LIST</span>
-</div>
+<img src="/assets/projects/todo-list.png" alt="To-Do List Application repository"/>
 </div>
 <!-- Project 4: Portfolio -->
-<div class="proj-img-item" data-proj="4">
+<div class="proj-img-item card" data-proj="4">
 <div class="pv-glow" style="background:radial-gradient(circle,#a855f7,transparent 70%);"></div>
-<div class="img-placeholder">
-<svg fill="none" height="80" stroke="#a855f7" stroke-width=".8" viewbox="0 0 24 24" width="80"><rect height="16" rx="2" width="20" x="2" y="4"></rect><line x1="2" x2="22" y1="9" y2="9"></line><circle cx="5.5" cy="6.5" r="1"></circle><circle cx="8.5" cy="6.5" r="1"></circle></svg>
-<span class="img-label">PORTFOLIO</span>
-</div>
+<img src="/assets/projects/my-portfolio.png" alt="MyPortfolio repository"/>
 </div>
 <!-- Project 5: StreamCam -->
 <div class="proj-img-item" data-proj="5">
@@ -399,18 +462,18 @@ const PAGE_HTML = `<div id="loader">
 <div class="stream-terminal-wrap">
 <div class="stream-window">
 <div class="stream-titlebar">
-<span class="stream-tab">~/streamcam $ python app.py ×</span>
+<span class="stream-tab">~/streamcam $ ionic serve ×</span>
 <div class="stream-winbtns"><span>─</span><span>□</span><span>✕</span></div>
 </div>
 <div class="stream-feed">
 <div class="stream-feed-glow"></div>
 <div class="stream-rec"><span class="dot"></span>LIVE</div>
 <svg class="stream-cam-icon" fill="none" height="64" stroke="#a855f7" stroke-width=".8" viewbox="0 0 24 24" width="64"><path d="M23 7l-7 5 7 5V7z"></path><rect height="14" rx="2" width="15" x="1" y="5"></rect></svg>
-<div class="stream-overlay-label">192.168.1.12:5000/video_feed</div>
+<div class="stream-overlay-label">camera live · android device</div>
 </div>
 <div class="stream-body">
-<p class="atm-line atm-green">* Running on http://0.0.0.0:5000</p>
-<p class="atm-line atm-grey">Flask + OpenCV — local network stream active</p>
+<p class="atm-line atm-green">* Live stream active on device</p>
+<p class="atm-line atm-grey">Ionic + Capacitor — hybrid Android build</p>
 </div>
 </div>
 </div>
@@ -441,6 +504,30 @@ const PAGE_HTML = `<div id="loader">
 </div>
 </div>
 </div>
+</div>
+<div class="proj-img-item" data-proj="7">
+<div class="pv-glow" style="background:radial-gradient(circle,#3b82f6,transparent 70%);"></div>
+<img src="/assets/projects/nyvexa.png" alt="Nyvexa AI assistant chat interface"/>
+</div>
+<div class="proj-img-item" data-proj="8">
+<div class="pv-glow" style="background:radial-gradient(circle,#38bdf8,transparent 70%);"></div>
+<img src="/assets/projects/rupee-pulse.png" alt="Rupee Pulse live trading dashboard"/>
+</div>
+<div class="proj-img-item card" data-proj="9">
+<div class="pv-glow" style="background:radial-gradient(circle,#f5d142,transparent 70%);"></div>
+<img src="/assets/projects/snj-gold-lab.png" alt="SNJ Gold Lab repository"/>
+</div>
+<div class="proj-img-item card" data-proj="10">
+<div class="pv-glow" style="background:radial-gradient(circle,#facc15,transparent 70%);"></div>
+<img src="/assets/projects/gold-silver-pos.png" alt="Gold Silver POS repository"/>
+</div>
+<div class="proj-img-item" data-proj="11">
+<div class="pv-glow" style="background:radial-gradient(circle,#a855f7,transparent 70%);"></div>
+<img src="/assets/projects/app-sweeper.png" alt="App Sweeper uninstaller interface"/>
+</div>
+<div class="proj-img-item card" data-proj="12">
+<div class="pv-glow" style="background:radial-gradient(circle,#c026d3,transparent 70%);"></div>
+<img src="/assets/projects/dice-rolling.png" alt="Dice Rolling Game repository"/>
 </div>
 </div><!-- /proj-img-stage -->
 </div><!-- /proj-right-panel -->
