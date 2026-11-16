@@ -1,5 +1,7 @@
 # Subhan Bhatti — Developer Portfolio
 
+![Project banner for the Subhan Bhatti portfolio](docs/images/my-portfolio-banner.png)
+
 A personal developer portfolio built with **Vite + React** and plain CSS, deployed at
 https://subhanbhatti.live.
 
