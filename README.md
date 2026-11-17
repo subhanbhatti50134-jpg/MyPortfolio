@@ -1,5 +1,7 @@
 # Subhan Bhatti — Developer Portfolio
 
+[![CI](https://github.com/subhanbhatti50134-jpg/MyPortfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/subhanbhatti50134-jpg/MyPortfolio/actions/workflows/ci.yml)
+
 ![Project banner for the Subhan Bhatti portfolio](docs/images/my-portfolio-banner.png)
 
 A personal developer portfolio built with **Vite + React** and plain CSS, deployed at
